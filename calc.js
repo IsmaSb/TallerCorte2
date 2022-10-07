@@ -17,5 +17,5 @@ function Operacion(operar) {
                     break;
     }
     
-    alert(result);
+    alert("El resultado de la operación es: " + result);
 }
