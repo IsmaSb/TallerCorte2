@@ -1,10 +1,10 @@
-function operacion(operar) { 
+function Operation(operand) { 
 				
 
     var firstValue = parseInt(document.getElementById('primerNumero').value);
     var secondValue = parseInt(document.getElementById('segundoNumero').value);				
     var result = 0;
-    switch(operar){
+    switch(operand){
 
         case '+' : 	result = ( (x, y) => {	return x + y; } )( firstValue, secondValue );
                     break;
